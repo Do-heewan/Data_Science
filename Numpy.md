@@ -116,6 +116,8 @@
 
 ## Comparison, Mask, Boolean
 
+### Comparison
+
 `==` / `np.equal` : 같으면 True 반환
 
 `<` / `np.less` : 작으면 True 반환
@@ -128,18 +130,23 @@
 
 `>=` / `np.greater_equal` : 크거나 같으면 True 반환
 
+<br>
+
 ### Boolean Array에서 작업 : entries 개수 세기
 
 `np.count_nonzero(x < 6)` : 6보다 작은 원소 중 0이 아닌 것 개수
 
 `np.sum(x < 6)`
 
+<br>
 
 ### any, all
 
 `np.any(x > 8)` : x중 하나라도 8보다 크다면 True 반환
 
 `np.all(x < 10)` : x 원소 모두 10보다 작으면 True 반환
+
+<br>
 
 ### Bitwise Operator
 
@@ -151,9 +158,13 @@
 
 `~` / `np.bitwise_not`
 
+<br>
+
 ### Boolean Masks
 
 `x[x < 5>]` : x 중 5보다 작은 원소들만 보임
+
+<br>
 
 ### and/or 와 &/|의 차이
 
